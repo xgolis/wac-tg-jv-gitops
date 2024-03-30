@@ -1,0 +1,12 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: wac-tg-jv
+spec:
+  selector:
+    pod: wac-tg-jv
+  ports:
+  - name: http
+    protocol: TCP
+    port: 80
+    targetPort: http
