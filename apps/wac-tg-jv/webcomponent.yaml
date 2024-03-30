@@ -7,15 +7,10 @@ spec:
 
   navigation:
     - element: wac-tg-jv
-      attributes:
-      - name: api-base
-        value: http://localhost:5001/api
-        #- name: ambulance-id
-        #value: bobulova
       path: wac-tg-jv
       title: Semestralne zadanie tg-jv
       details: Semestralne zadanie xgolis xvlcek
   preload: false
   proxy: true
 
-  hash-suffix: v1alpha2
+  hash-suffix: v1alpha1
