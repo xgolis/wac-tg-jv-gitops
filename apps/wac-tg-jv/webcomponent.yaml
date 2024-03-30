@@ -3,7 +3,7 @@ kind: WebComponent
 metadata:
   name: wac-tg-jv
 spec:
-  module-uri: http://wac-tg-jv.wac-hospital/build/ambulance-ufe.esm.js
+  module-uri: http://wac-tg-jv.wac-hospital/build/wac-tg-jv.esm.js
 
   navigation:
     - element: wac-tg-jv
