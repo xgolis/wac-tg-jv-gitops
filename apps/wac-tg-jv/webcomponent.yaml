@@ -7,6 +7,9 @@ spec:
 
   navigation:
     - element: wac-tg-jv
+      attributes:
+      - name: api-base
+        value: /wac-tg-jv-backend
       path: wac-tg-jv
       title: Semestralne zadanie tg-jv
       details: Semestralne zadanie xgolis xvlcek

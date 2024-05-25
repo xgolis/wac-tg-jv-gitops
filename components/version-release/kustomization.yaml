@@ -3,10 +3,10 @@ kind: Component
 images:
 - name: xgolis/wac-tg-jv
   newName: xgolis/wac-tg-jv
-  newTag: v1.0.2  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
+  newTag: main.20240525.1301  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
 - name: xgolis/wac-tg-jv-backend
   newName: xgolis/wac-tg-jv-backend
-  newTag: main
+  newTag: main.20240525.1511
 
 replacements:
  - targets:
