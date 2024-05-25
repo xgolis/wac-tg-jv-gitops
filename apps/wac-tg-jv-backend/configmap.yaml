@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: wac-tg-jv
+data:
+  MongoDBURL: "mongodb.wac-hospital-system.svc.cluster.local"
+  MongoDBPort: "27017"
+  MongoDBUsername: "ja"
+  MongoDBPassword: "Wac-studeNT-24-7"
+  serverURL: "0.0.0.0"
+  serverPort: "8080"

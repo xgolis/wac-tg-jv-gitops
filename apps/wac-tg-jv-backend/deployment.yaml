@@ -13,10 +13,12 @@ spec:
         pod: wac-tg-jv-backend
     spec:
       containers:
-      - name: wac-tg-jv-backend
+      - envFrom:
+        - configMapRef:
+            name: wac-tg-jv
+        name: wac-tg-jv-backend
         image: xgolis/wac-tg-jv-backend
         imagePullPolicy: Always
-
         ports:
         - name: http
           containerPort: 8080
