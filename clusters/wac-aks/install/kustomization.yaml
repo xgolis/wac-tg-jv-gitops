@@ -9,6 +9,7 @@ commonLabels:
 
 resources:
  - ../../../apps/wac-tg-jv
+ - ../../../apps/wac-tg-jv-backend
 
 
 components:

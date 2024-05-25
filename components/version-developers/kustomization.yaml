@@ -7,3 +7,6 @@ images:
 - name: milung/ufe-controller
   newName: milung/ufe-controller # {"$imagepolicy":  "wac-hospital:ufe-controller:name"}
   newTag: 1.7.3 # {"$imagepolicy": "wac-hospital:ufe-controller:tag"}
+- name: xgolis/wac-tg-jv-backend
+  newName: xgolis/wac-tg-jv-backend
+  newTag: main
