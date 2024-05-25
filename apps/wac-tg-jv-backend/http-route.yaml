@@ -12,7 +12,7 @@ spec:
    - matches:
        - path:
            type: PathPrefix
-           value: /
+           value: /wac-tg-jv-backend
      filters:
        - type: URLRewrite
          urlRewrite:
