@@ -6,6 +6,7 @@ resources:
 - deployment.yaml
 - service.yaml
 - configmap.yaml
+- http-route.yaml
 
 commonLabels:
   app.kubernetes.io/component: wac-tg-jv-backend
